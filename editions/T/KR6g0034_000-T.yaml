@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6g0034/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大雲無想經卷第九
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0388.xml
+    old_id: T12n0388
+hash: sha256:5f73eee6858938e5e2f3d770b956f5bd45ae0b0ca36027dbc7f071be4ee7518b

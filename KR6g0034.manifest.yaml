@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6g0034/v1
+canonical_location: https://kanripo.org/bkk/KR6g0034/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大雲無想經卷第九
+  identifiers:
+    alt_id:
+    - T12n0388
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0388.xml
+    old_id: T12n0388
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6g0034_000.yaml, hash: 'sha256:5f73eee6858938e5e2f3d770b956f5bd45ae0b0ca36027dbc7f071be4ee7518b'}
+  - {seq: 1, filename: KR6g0034_001.yaml, hash: 'sha256:dc8bf28dc59c455de716fd4f15fc2d16ae757bc2717181fb4cdd655416389cfa'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6g0034_001.markers.yaml, hash: 'sha256:a6083a1eb8cf6cb61e9b100f38dd4cb56fcd9b6b70989507f1aaaf89acb175e9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6g0034_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4609
+  label: 大雲無想經卷九
+  type: juan
+  level: 1
+hash: sha256:73ebf24a259e164386958c2860919ee4d61f71043fb4d06dde6b3e5c21d1a525
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

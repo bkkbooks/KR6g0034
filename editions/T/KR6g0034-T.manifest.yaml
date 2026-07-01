@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6g0034/T/v1
+canonical_location: https://kanripo.org/bkk/KR6g0034/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大雲無想經卷第九
+  identifiers:
+    krp: KR6g0034
+    cbeta: T12n0388
+    cbeta_old_id: T12n0388
+    authorityid: CA0000709
+    json_key: T0388
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T12/T12n0388.xml
+    old_id: T12n0388
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6g0034_000-T.yaml, hash: 'sha256:5f73eee6858938e5e2f3d770b956f5bd45ae0b0ca36027dbc7f071be4ee7518b'}
+  - {seq: 1, filename: KR6g0034_001-T.yaml, hash: 'sha256:1673762f29a2d324a365243fa82d4191d2335a26eee86337c0a725e5d5186edb'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6g0034_000-T.markers.yaml, hash: 'sha256:44d4a3d0d89991d3c053f303e93a534bc28263694973a0d533d90daf48948b32'}
+  - {seq: 1, role: markers, filename: assets/KR6g0034_001-T.markers.yaml, hash: 'sha256:87811522726fd24a206930f26431df0aaa53bb34eb56d5e63cc35df92e98da5d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6g0034_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4609
+  label: 大雲無想經卷九
+  type: juan
+  level: 1
+hash: sha256:6f55857b38b190a2f2c611edcfcd23dd32701a7e36650eca07c34d477a8573da
