@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6g0034/v1
 canonical_location: https://kanripo.org/bkk/KR6g0034/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大雲無想經卷第九
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6g0034_000.yaml, hash: 'sha256:5f73eee6858938e5e2f3d770b956f5bd45ae0b0ca36027dbc7f071be4ee7518b'}
-  - {seq: 1, filename: KR6g0034_001.yaml, hash: 'sha256:1673762f29a2d324a365243fa82d4191d2335a26eee86337c0a725e5d5186edb'}
+  - {seq: 1, filename: KR6g0034_001.yaml, hash: 'sha256:63cb3470c6c68c3b51dc43a9f65a6ac6b92a3140c71e1bac51cae9d8518ab627'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6g0034_000.markers.yaml, hash: 'sha256:596490a827831be47b8f23431779c75ce3fdb91ec01c2c735a8a84c4ab57bb8f'}
-  - {seq: 1, role: markers, filename: assets/KR6g0034_001.markers.yaml, hash: 'sha256:190e8cc92a38c5acbde6c5845e53c30f66a68a092f9c9f05a7abfd46f6f24548'}
+  - {seq: 1, role: markers, filename: assets/KR6g0034_001.markers.yaml, hash: 'sha256:cf9ea2cf568c8ca121e398faac12ede330a66e7f9c0f83c61f6b0528b1dee29d'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 大雲無想經卷九
   type: juan
   level: 1
-hash: sha256:2b367471955bc52406de5f94666d760b21625cb02c0ff9a12bda54524030bfe1
+hash: sha256:d605289ffd10700dbd1eae032b4b2e2c0523f5c2370908619a19f1f32be67663
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
